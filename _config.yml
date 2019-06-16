@@ -1,0 +1,26 @@
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://imgsingh.github.io/
+baseurl: ""
+title: Gursimran Singh
+author: Gursimran Singh
+description: Personal blog and resume
+email: gursimranbasra7@email.com
+github: imgsingh # username
+twitter: basra_garry
+linkedin: in/gursimran-basra-32986b144
+instagram: gursimranbasra
+
+# needed for travis-ci build
+exclude: [vendor]
